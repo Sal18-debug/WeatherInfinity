@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Blog</title>
+	<meta name="description" content="Weather Altermath">
+	<meta name="author" content="Weather Altermath">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+	</script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<script>
+		$(document).ready(function(){
+              $('.dropdown-submenu a.test').on("click", function(e){
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+              });
+            });
+	</script>
+	<script type="text/javascript">
+		function toggle(obj) {
+						var obj=document.getElementById(obj);
+						if (obj.style.display == "block") obj.style.display = "none";
+						else obj.style.display = "block";
+					}
+	</script>
+
+<div id="headerDiv" class="headerDiv">
+	<h1><span class="headerTextSpan">Welcome to Weather Infinity</span>
+  <div class="dropdown" style="float: right; padding-right: 10px; padding-left: 20px; text-align: center;">
+		<a href="weather.html"><button class="headerMenuButton">Location Weather</button></a>
+		<a href="blog.html"><button class="headerMenuButton">Blog</button></a>
+		<a href="contact.html"><button class="headerMenuButton">Emergency</button></a>
+		<a href="volunteer.html"><button class="headerMenuButton">Volunteers</button></a>
+		<a href="kidsgames.html"><button class="headerMenuButton">Kids</button></a>
+		<a href="adultpage.html"><button class="headerMenuButton">Adult</button></a>
+<!--
+		<button class="headerMenuButton"  data-toggle="dropdown">Adult</button>
+			<ul class="dropdown-menu">
+				<li><a tabindex="-1" href="https://www.ea.com/">Games</a></li>
+				<li><a tabindex="-1" href="https://cso.org/home/">Music</a></li>
+				<li><a tabindex="-1" href="https://www.metmuseum.org/">Art</a></li>
+				<li><a tabindex="-1" href="https://youtu.be/5if4cjO5nxo">Exercise</a></li>
+				<li><a tabindex="-1" href="https://youtu.be/NH8uSy5Fq4k">Indoor Sport</a></li>
+				<li><a tabindex="-1" href="https://youtu.be/JLJqUipWRWk">Meditation</a></li>
+				<li><a tabindex="-1" href="https://youtu.be/NDLad2vOHkU">Yoga</a></li>
+			</ul>
+-->
+     </div>
+    </h1>
+  <img src="images/Wildfire1.jpg" class="headerImg">
+</div>
+
+      <div class="contentDivs">
+        <div class="contentDiv">
+            <h2>Wildfire Blogs</h2>
+            <div id="entries">
+							<div class="entry">
+								<h3 onClick="toggle('body1')" style="color: red"><em>June 8, 2020</em> Is Destruction the Inevitable Fate of Our Forests?</h3>
+								<div id="body1" style="display:none;">
+									<p style="color: red">The world lost 3.8 million hectares (9.3 million acres) of tropical primary forests last year – an area nearly the size of Switzerland constituting some of the most valuable ecosystems on the planet for climate stability and biodiversity conservation</p>
+									<img src="images/WildFireImages3.jpg" style="width: 100%">
+									<p style="color: red">According to the latest data on Global Forest Watch, the area of forest loss in 2019, both overall and in such forest-rich countries as Brazil, the DRC, and Indonesia, was remarkably similar to the year before</p>
+									<a href="https://www.wri.org/blog/2020/06/destruction-inevitable-fate-our-forests" target="_blank">To read more, click here</a>
+								</div>
+							</div>
+
+							<div class="entry">
+								<h3 onClick="toggle('body2')" style="color: red"><em>February 13, 2020</em> Intense Boreal Forest Fires a Climate Concern</h3>
+								<div id="body2" style="display:none;">
+									<p style="color: red">The Chuckegg Creek wildfire sparked in Alberta, Canada on May 12, 2019. Over the next three months, the blaze burned across 280,000 hectares, forcing more than 10,000 people to evacuate their homes</p>
+									<img src="images/Wildfireimages2.jpg" style="width: 100%">
+									<p style="color: red">On the Global Forest Watch platform, bright red fire alerts were visible blossoming out across the landscape.</p>
+									<a href="https://www.wri.org/blog/2020/02/intense-boreal-forest-fires-climate-concern" target="_blank">To read more, click here</a>
+								</div>
+							</div>
+
+							<div class="entry">
+								<h3 onClick="toggle('body3')" style="color: red"><em>June 8, 2020</em> Is Destruction the Inevitable Fate of Our Forests?</h3>
+								<div id="body3" style="display:none;">
+									<p style="color: red">The world lost 3.8 million hectares (9.3 million acres) of tropical primary forests last year – an area nearly the size of Switzerland constituting some of the most valuable ecosystems on the planet for climate stability and biodiversity conservation</p>
+									<img src="images/WildFireImages3.jpg" style="width: 100%">
+									<p style="color: red">According to the latest data on Global Forest Watch, the area of forest loss in 2019, both overall and in such forest-rich countries as Brazil, the DRC, and Indonesia, was remarkably similar to the year before</p>
+									<a href="https://www.wri.org/blog/2020/06/destruction-inevitable-fate-our-forests" target="_blank">To read more, click here</a>
+								</div>
+							</div>
+						</div>
+        </div>
+        <div class="contentDiv">
+            <h2>Weather Blogs</h2>
+            <div id="entries">
+							<div class="entry">
+								<h3 onClick="toggle('body4')" style="color: red"><em>August 11, 2020</em> Heat warnings by the numbers</h3>
+								<div id="body4" style="display:none;">
+									<p style="color: red">PHOENIX (3TV/CBS5) -- Temperatures, actual temperatures, are the best way to compare year to year heat. And we know, for instance by temperatures, July 2020 was the hottest month on record for Phoenix</p>
+									<img src="https://bloximages.newyork1.vip.townnews.com/azfamily.com/content/tncms/assets/v3/editorial/7/91/791b1736-dc3c-11ea-b916-37dbd14810ff/5f33481a841d3.image.jpg?resize=750%2C422" style="width: 100%">
+									<p style="color: red">Not just the hottest July, the hottest month. Is August headed for the hottest August on record? Maybe. The numbers will tell us.</p>
+									<a href="https://www.azfamily.com/weather/phoenix_weather_blog/heat-warnings-by-the-numbers/article_264a9558-dc15-11ea-a4a3-7b5d2e1e1fcf.html" target="_blank">To read more, click here</a>
+								</div>
+							</div>
+
+							<div class="entry">
+								<h3 onClick="toggle('body5')" style="color: red"><em>Jul 22, 2020</em> Tree trimmers, roofers warn homeowners to take precautions before monsoon arrives</h3>
+								<div id="body5" style="display:none;">
+									<p style="color: red">PHOENIX (3TV/CBS 5) - This is the time of year when the monsoon starts to do its thing, wreaking havoc across the Valley.</p>
+									<img src="https://bloximages.newyork1.vip.townnews.com/azfamily.com/content/tncms/assets/v3/editorial/d/0d/d0ded4ac-cc84-11ea-9ad6-6bdd3eed4244/5f18e96c08ffe.image.jpg?resize=1200%2C675" style="width: 100%">
+									<p style="color: red">Tree experts say that if Valley homeowners would simply cut back the big trees around their house, before the storms hit, it would greatly reduce the destruction we see every summer.</p>
+									<a href="https://www.azfamily.com/weather/arizona_monsoon/tree-trimmers-roofers-warn-homeowners-to-take-precautions-before-monsoon-arrives/article_02545530-cc7f-11ea-b552-3b136deac890.html" target="_blank">To read more, click here</a>
+								</div>
+							</div>
+
+							<div class="entry">
+								<h3 onClick="toggle('body6')" style="color: red"><em>August 24, 2020</em> Wildfire smoke contributing to poor air quality in Phoenix</h3>
+								<div id="body6" style="display:none;">
+									<p style="color: red">PHOENIX (3TV/CBS 5) - Smoke from wildfires both here and in other states is contributing to poor air quality that might make it difficult to breathe for anyone spending time outside over the next several days, if not longer.</p>
+									<img src="https://bloximages.newyork1.vip.townnews.com/azfamily.com/content/tncms/assets/v3/editorial/b/aa/baad1bf2-e625-11ea-ac42-83d485b455e2/5f43ea8b3f97a.image.jpg?resize=300%2C169" style="width: 100%">
+									<p style="color: red">A satellite composite from last night showed smoke being pulled in from wildfires in California and Colorado, and rotating around a ridge of high pressure that is situated across the four corners of the region. That smoke is settling into places like Montana, Idaho, and even the central part of the county. It's also making its way into Arizona.</p>
+									<a href="https://www.azfamily.com/news/arizona_wildfires/wildfire-smoke-contributing-to-poor-air-quality-in-phoenix/article_03e4a51e-e613-11ea-b37f-23d4aaf61970.html" target="_blank">To read more, click here</a>
+								</div>
+							</div>
+						</div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+      </body>
+</html>
